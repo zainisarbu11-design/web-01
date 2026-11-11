@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tugas UTS Pemrograman Web 1">
+  <title>Beranda | UTS Pemrograman Web 1</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">UTS <span>Web 1</span></a>
+    <nav aria-label="Navigasi utama">
+      <a class="active" href="index.html">Beranda</a>
+      <a href="biodata.html">Biodata</a>
+      <a href="tabel.html">Jadwal Kegiatan</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <p class="eyebrow">Tugas Ujian Tengah Semester</p>
+      <h1>Pemrograman Web 1</h1>
+      <p class="lead">Contoh penggunaan tautan antarhalaman, elemen biodata, daftar, dan tabel HTML.</p>
+      <div class="hero-actions">
+        <a class="button" href="biodata.html">Lihat biodata</a>
+        <a class="button button-outline" href="tabel.html">Lihat tabel kegiatan</a>
+      </div>
+    </section>
+
+    <section class="panel summary" aria-labelledby="identitas-title">
+      <div class="section-heading">
+        <p class="eyebrow">Identitas mahasiswa</p>
+        <h2 id="identitas-title">Ringkasan</h2>
+      </div>
+      <div class="table-wrap"><table class="identity-table">
+        <tbody>
+          <tr><th scope="row">NPM</th><td>2510020001</td></tr>
+          <tr><th scope="row">Nama Lengkap</th><td>M. Zaini</td></tr>
+          <tr><th scope="row">Program Studi</th><td>SISTEM INFORMASI</td></tr>
+        </tbody>
+      </table></div>
+    </section>
+
+    <section class="panel menu-panel" aria-labelledby="menu-title">
+      <div class="section-heading">
+        <p class="eyebrow">Jelajahi tugas</p>
+        <h2 id="menu-title">Menu utama</h2>
+      </div>
+      <div class="card-grid">
+        <a class="nav-card" href="biodata.html"><span class="card-number">01</span><span><strong>Biodata</strong><small>Profil, pendidikan, dan media sosial</small></span><span class="arrow" aria-hidden="true">↗</span></a>
+        <a class="nav-card" href="tabel.html"><span class="card-number">02</span><span><strong>Tabel kegiatan</strong><small>Jadwal workshop dengan rowspan dan colspan</small></span><span class="arrow" aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container">Tugas UTS Pemrograman Web 1 <span>•</span> 2026</div></footer>
+</body>
+</html>

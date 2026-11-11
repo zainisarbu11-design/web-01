@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jadwal kegiatan dan workshop pemrograman web">
+  <title>Jadwal Kegiatan | UTS Pemrograman Web 1</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html">UTS <span>Web 1</span></a>
+    <nav aria-label="Navigasi utama">
+      <a href="index.html">Beranda</a>
+      <a href="biodata.html">Biodata</a>
+      <a class="active" href="tabel.html">Jadwal Kegiatan</a>
+    </nav>
+  </header>
+  <main class="container page-main">
+    <div class="page-intro"><p class="eyebrow">Soal 2</p><h1>Jadwal Kegiatan &amp; Workshop Pemrograman Web</h1><p>Contoh tabel HTML yang memakai tautan, daftar, rowspan, dan colspan.</p></div>
+    <section class="panel schedule-panel">
+      <div class="table-wrap"><table class="schedule-table">
+        <thead>
+          <tr><th scope="col" rowspan="2">No</th><th scope="col" rowspan="2">Waktu</th><th scope="col" rowspan="2">Nama Kegiatan</th><th scope="colgroup" colspan="2">Detail Aktivitas &amp; File Download</th><th scope="col" rowspan="2">Narasumber</th></tr>
+          <tr><th scope="col">Sub-Tugas / List</th><th scope="col">Tautan Dokumen</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>1</td><td>08.00 - 10.00</td><td><strong>Sesi Pembukaan</strong></td><td><ul><li>Sambutan ketua panitia</li><li>Paparan materi utama</li></ul></td><td><a href="https://developer.mozilla.org/id/docs/Learn_web_development/Core/Structuring_content" target="_blank" rel="noreferrer">Unduh materi HTML</a></td><td>Gilang Ramadhan</td></tr>
+          <tr><td rowspan="2">2</td><td rowspan="2">10.15 - 12.00</td><td rowspan="2"><strong>Sesi Kelas Paralel (Praktik)</strong></td><td><strong>Sub-Sesi A</strong><ul><li>Praktik dasar HTML</li><li>Review tag tabel</li></ul></td><td><a href="https://developer.mozilla.org/id/docs/Web/HTML/Element/table" target="_blank" rel="noreferrer">Panduan Sub-A</a></td><td rowspan="2">M. Zaini</td></tr>
+          <tr><td><strong>Sub-Sesi B</strong><ul><li>Studi kasus rowspan</li><li>Tanya jawab kode</li></ul></td><td><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/td" target="_blank" rel="noreferrer">Panduan Sub-B</a></td></tr>
+          <tr><td>3</td><td>12.00 - 13.00</td><td><strong>Istirahat Siang</strong></td><td><ul><li>Ishoma</li><li>Persiapan sesi lanjutan</li></ul></td><td><a href="https://developer.mozilla.org/id/docs/Web/HTML/Element/time" target="_blank" rel="noreferrer">Jadwal istirahat</a></td><td>—</td></tr>
+          <tr><td rowspan="3">4</td><td rowspan="3">13.00 - 15.00</td><td rowspan="3"><strong>Penutupan &amp; Demo</strong></td><td colspan="2">Demo hasil karya proyek Kelompok A</td><td rowspan="3">Semua anggota kelompok</td></tr>
+          <tr><td colspan="2">Demo hasil karya proyek Kelompok B</td></tr>
+          <tr><td colspan="2">Demo hasil karya proyek Kelompok C</td></tr>
+          <tr class="totals"><td colspan="4" class="total-label">Total sesi kegiatan<br>Jumlah narasumber</td><td colspan="2"><strong>4 sesi<br>2 orang</strong></td></tr>
+        </tbody>
+        <tfoot><tr><td colspan="6"><strong>Catatan:</strong> Seluruh peserta wajib mengisi daftar hadir dan mengumpulkan tugas melalui tautan yang disediakan.<br><em>Koordinator workshop: Tim Panitia Informatika</em></td></tr></tfoot>
+      </table></div>
+      <a class="back-link" href="index.html">← Kembali ke menu utama</a>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container">Tugas UTS Pemrograman Web 1 <span>•</span> 2026</div></footer>
+</body>
+</html>
